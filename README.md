@@ -93,7 +93,7 @@ Se o utilizador introduzir uma data actual inferior à data de nascimento, o pro
 O programa deverá sempre validar datas antes de qualquer outra operação. 
 
 # Entrega
-O programa deverá ser submetido na plataforma PANDORA [(2)](#ref2) até às *23:59 do dia 27/11/2020*. O desenvolvimento do programa deverá ser realizado individualmente. 
+O programa deverá ser submetido na plataforma PANDORA [(2)](#ref2) até às *23:59 do dia 21/03/2021*. O desenvolvimento do programa deverá ser realizado individualmente. 
 
 ## Honestidade Académica
 
