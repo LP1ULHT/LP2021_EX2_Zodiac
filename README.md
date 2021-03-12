@@ -86,7 +86,9 @@ Se o utilizador introduzir a data atual inválida o programa deverá responder "
 Nota: considera-se ano inválido se for inferior a 1900 ou superior a 2020. Considera-se o dia
 inválido se for menor que 1 ou superior ao numero máximo de dias de cada mês.
 
-O programa deverá também validar as datas relativamente aos dias de cada mês e especialmente em relação aos dias do mês de fevereiro. Para isso deverá tomar em consideração se o no é bissexto ou não.
+O programa deverá também validar as datas relativamente aos dias de cada mês e especialmente em relação aos dias do mês de fevereiro. Para isso deverá tomar em consideração se o ano é bissexto ou não. Um ano é considerado bissexto se for múltiplo de 4, (exceto anos múltiplos de 100 que não são múltiplos de 400).
+
+hese extra days occur in each year which is an integer multiple of 4 (except for years evenly divisible by 100, which are not leap years unless evenly divisible by 400)
 
 Se o utilizador introduzir uma data actual inferior à data de nascimento, o programa deverá imprimir a mensagem ```Data actual inferior a data de nascimento```.
 
