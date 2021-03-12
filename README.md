@@ -2,6 +2,8 @@
 Pretende-se fazer um programa que com base na data de nascimento e data actual determina a idade e o signo do zodiaco.
 Além disso, o programa deverá também determinar se a pessoa está apta para trabalhar (idade >= 16) ou se é elegível para a reforma (idade >= 66 anos e 5 meses) 
 
+No desenvolvimento deste programa poderá utilizar instruções de controlo de fluxo tais como `if`, `else`, `switch`. Poderá também usar funções para uma melhor organização do código. Não deverá utilizar ciclos (não é necessário). O código deverá ser entregue correctamente indentado e deverá compilar sem erros ou warnings quando compilado com as flags `-Wall -ansi -Wpedantic -Wextra`.
+
 
 ## Descrição do problema
 O programa recebe um caracter e 6 inteiros. O caracter serve para escolher qual o output a apresentar:
