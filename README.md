@@ -40,7 +40,7 @@ A determinação do signo deverá ser feita de acordo com as seguintes datas:
 - Peixes - Feb 19 a Mar 20
 - Carneiro - Mar 21 a Apr 19
 - Touro - Apr 20 a May 20
-- Gemeos - May 21 a Jun 2r
+- Gemeos - May 21 a Jun 20
 - Carangueijo - Jun 21 a Jul 22
 - Leao - Jul 23 a Aug 22
 - Virgem - Aug 23 a Sep 22
