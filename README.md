@@ -27,7 +27,7 @@ a 11 1 1970 2 6 2020
 50 anos
 ```
 ### Opção 'z'
-O programa deverá devolver o signo do zodiaco (Capricornio, Aquario, Peixes, Carneiro, Touro, Gemeos, Carangueijo, Leao, Virgem, Balanca, Escorpiao, Sagitario).
+O programa deverá devolver o signo do zodiaco (Capricornio, Aquario, Peixes, Carneiro, Touro, Gemeos, Caranguejo, Leao, Virgem, Balanca, Escorpiao, Sagitario).
 
 Exemplo:
 ```bash
@@ -81,21 +81,20 @@ Apto para trabalhar
 ```
 
 ## Mensagens de erro
-Se o utilizador introduzir uma data de nascimento inválida o programa deverá responder
-"Data de nascimento invalida".
 
-Se o utilizador introduzir a data atual inválida o programa deverá responder "Data actual invalida".
+A primeira validação que o programa deverá fazer é se a opção introduzida é válida. Caso o utilizador introduza uma opção que não é uma das opções válidas, o programa deverá imprimir a mensagem ```Opcao invalida``` e em seguida deverá terminar sem fazer mais operações.
+
+Em seguida o programa deverá verificar a validade das datas fornecidas pela ordem seguinte: 
+1. Se o utilizador introduzir uma data de nascimento inválida o programa deverá responder "Data de nascimento invalida".
+2. Se o utilizador introduzir a data atual inválida o programa deverá responder "Data actual invalida".
+3. Se o utilizador introduzir uma data actual inferior à data de nascimento, o programa deverá imprimir a mensagem ```Data actual inferior a data de nascimento```.
+
+O programa deverá terminar imediatamente após um dos critérios de validação falhar. Ou seja, caso a data de nascimento seja inválida, o programa não vai verificar as outras datas. Simplesmente deverá terminar.
 
 Nota: considera-se ano inválido se for inferior a 1900 ou superior a 2020. Considera-se o dia
 inválido se for menor que 1 ou superior ao numero máximo de dias de cada mês.
 
 O programa deverá também validar as datas relativamente aos dias de cada mês e especialmente em relação aos dias do mês de fevereiro. Para isso deverá tomar em consideração se o ano é bissexto ou não. Um ano é considerado bissexto se for múltiplo de 4, (exceto anos múltiplos de 100 que não são múltiplos de 400).
-
-hese extra days occur in each year which is an integer multiple of 4 (except for years evenly divisible by 100, which are not leap years unless evenly divisible by 400)
-
-Se o utilizador introduzir uma data actual inferior à data de nascimento, o programa deverá imprimir a mensagem ```Data actual inferior a data de nascimento```.
-
-O programa deverá sempre validar datas antes de qualquer outra operação. 
 
 # Entrega
 O programa deverá ser submetido na plataforma PANDORA [(2)](#ref2) até às *23:59 do dia 21/03/2021*. O desenvolvimento do programa deverá ser realizado individualmente. 
