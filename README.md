@@ -11,6 +11,7 @@ O programa recebe um caracter e 6 inteiros. O caracter serve para escolher qual 
 - 'z' - signo do zodiaco
 - 'r' - informação sobre se está apto para trabalhar ou elegível para a reforma
 - 't' - toda a informação
+
 Os 6 inteiros correspondem a dia, mês e ano de nascimento e dia, mês e ano atual
 
 Exemplo:
